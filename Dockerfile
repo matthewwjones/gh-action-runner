@@ -1,4 +1,4 @@
-FROM fedora:42
+FROM fedora:44
 ARG gh_token
 RUN mkdir actions-runner
 WORKDIR /actions-runner
